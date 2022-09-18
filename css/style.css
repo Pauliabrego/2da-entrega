@@ -45,7 +45,10 @@ padding-left: 5px;
 padding-right: 5px;}
 #header .menu ul a:hover{background-color: aliceblue;}
 /*main*/
-main {margin-bottom: 0px;}
+main {margin-bottom: 0px;
+display: grid;
+grid-template-columns: 1fr 1fr;}
+
 main .deporte {display: inline-flex;
 padding-bottom: 0px;}
 main .deporte .imagen1 {width: 600px;height: 400px;}
@@ -54,9 +57,9 @@ font-weight: 700;
 text-align: center; 
 width: auto; 
 height: auto; 
-margin-top: 70px;
+margin-top: 50px;
 text-decoration: double;}
-main .frase2{ padding-top: 50px;}
+/*main .frase2{ padding-top: 50px; }*/
 #contacto{padding: 10px; 
     background-color: yellowgreen; 
     font-size: 25px; 
