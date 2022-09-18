@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Paulina Abrego</h1>
+    <nav class="menu">
+        <div class="subtitulo"> <h3>Nutrición y Entrenamiento</h3></div>
+        <div class="slogan"><h6>"Quererse en cuidarse"</h6></div>
+        <div class="links">
+        <ul>
+        <li class="link1"><a href="./index.html">Home</a></li>
+        <li class="link2"><a href="./quien-soy.html"> Quien soy</a></li>
+        <li class="link3"><a href="./nutricion.html"> Nutrición</a></li>
+        <li class="link4"><a href="./entrenamiento.html">Entrenamiento</a></li>
+    </ul>  </div>
+    </nav>  
+</header>
+<main id="contactoBox">
+<form action="enviar php">
+<div class="nombreApellido">
+    <label for="nombre">Nombre y Apellido</label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre y apellido aquí">
+</div>
+<div class="ciudad">
+    <label for="ciudad">Ciudad</label>
+    <input type="text" id="ciudad" placeholder="donde vivis">
+</div>
+<div class="telefono">
+    <label for="telefono">Celular</label>
+    <input type="text" id="telefono" placeholder="con caracteristica" required>
+</div>
+<div class="mail">
+    <label for="mail">Mail</label>
+    <input type="text" id="mail" placeholder="escriba su mail" required>
+</div>
+    <label for="entrenamiento">Estas entrenando actualmente?</label>
+    <input type="radio" name="entrenamiento" id="si">si
+    <input type="radio" name="entrenamiento" id="no">no
+    <div class="noEntrena">
+        <label for="tiempo">Hace cuanto no entrena</label></div>
+    <div><select name="tiempo" id="tiempo">
+        <option value="1">Menos de 3 meses</option>
+        <option value="2">Entre 3 y 6 meses</option>
+        <option value="3">Entre 6 meses y 1 año</option>
+        <option value="4">1 año o más</option></div>
+    </select>
+</div>
+<div class="botonEnviar">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar contenido">
+</div>
+</form>  
+<section id="whatsapp">
+    
+    <img src="./imágenes/whatsapp.png" alt="whatsapp">
+    <h3>1138091314</h3>
+</section>
+</main>
+
+<footer>
+    <div>Lic. Paulina Abrego</div>
+    <p>2022</p>
+</footer>
+</body>
+</html>
