@@ -44,23 +44,42 @@ padding-top: 10px;
 padding-left: 5px;
 padding-right: 5px;}
 #header .menu ul a:hover{background-color: aliceblue;}
-
 /*main*/
-main .deporte {display: inline-flex;}
+main {margin-bottom: 0px;}
+main .deporte {display: inline-flex;
+padding-bottom: 0px;}
 main .deporte .imagen1 {width: 600px;height: 400px;}
 main .cuadroTexto{font-size: 40px;
 font-weight: 700;
-text-align: center; width: auto; height: auto; margin-top: 70px;text-decoration: double;}
+text-align: center; 
+width: auto; 
+height: auto; 
+margin-top: 70px;
+text-decoration: double;}
 main .frase2{ padding-top: 50px;}
-#contacto{padding: 10px; background-color: yellowgreen; font-size: 25px; font-weight: bolder;text-align: center; width: fit-content; margin: auto; margin-top: -5px; border-style: inset;}
-#contacto a{text-decoration: none; color: aliceblue}
+#contacto{padding: 10px; 
+    background-color: yellowgreen; 
+    font-size: 25px; 
+    font-weight: bolder;
+    text-align: center; 
+    width: fit-content; 
+    margin: auto; 
+    margin-top: -5px; 
+    border-style: inset;}
+#contacto a{text-decoration: none; 
+    color: aliceblue}
 #contacto a:hover{background-color: black;}
 
 /* main hoja quien soy */
-#cuerpo {display: inline-flex; box-sizing: content-box;}
+#cuerpo {display: inline-flex; 
+    box-sizing: content-box;}
 #cuerpo .cuerpo1 .imagen2pagina {display: inline-flex;}
 #cuerpo .imagen2pagina {
-    width: 400px; height: 400px;margin-top: 0%; margin-left: 80px; border: 7px solid black;}
+    width: 400px; 
+    height: 400px;
+    margin-top: 0%; 
+    margin-left: 80px; 
+    border: 7px solid black;}
 #cuerpo .cuerpo1 {width: 500px; height: 400px; font-size: 25px; color: darkslategray; padding-left: 30px; padding-top: 60px;}
 #cuerpo .cuerpo1 .texto2 {padding-top: 20px; padding-bottom: 20px;}
 #cuerpo .cuerpo1 .texto3 { text-align: center; font-weight: bolder;}
