@@ -45,18 +45,17 @@ margin-bottom: 0px;}
 /*main*/
 main {margin-bottom: 0px;
 display: grid;
-grid-template-columns: 1fr 1fr;}
-
-main .deporte {display: inline-flex;
-padding-bottom: 0px;}
-main .cuadroTexto{font-size: 40px;
+grid-template-columns: 1fr 1fr;
+gap: 10px;}
+main .cuadroTexto{font-size: xx-large;
 font-weight: 700;
-text-align: center; 
+text-align: center;
+justify-content: center; 
 width: auto; 
 height: auto; 
-margin-top: 50px;
+/*margin-top: 50px;*/
 text-decoration: double;}
-#contacto{padding: 10px; 
+/*#contacto{padding: 10px; 
     background-color: yellowgreen; 
     font-size: 25px; 
     font-weight: bolder;
@@ -67,21 +66,29 @@ text-decoration: double;}
     border-style: inset;}
 #contacto a{text-decoration: none; 
     color: aliceblue}
-#contacto a:hover{background-color: black;}
+#contacto a:hover{background-color: black;}*/
 
 /* main hoja quien soy */
-#cuerpo {display: inline-flex; 
-    box-sizing: content-box;}
+#cuerpo {display: ; 
+    box-sizing: border-box;}
 #cuerpo .cuerpo1 .imagen2pagina {display: inline-flex;}
 #cuerpo .imagen2pagina {
-    width: 400px; 
-    height: 400px;
-    margin-top: 0%; 
-    margin-left: 80px; 
+    width: ; 
+    height: ;
+    margin-top:  
     border: 7px solid black;}
-#cuerpo .cuerpo1 {width: 500px; height: 400px; font-size: 25px; color: darkslategray; padding-left: 30px; padding-top: 60px;}
+#cuerpo .imagen2pagina img {width: 500px;
+border-radius: 30px;}
+#cuerpo .cuerpo1 {width: 500px; 
+    height: ; 
+    font-size: 25px; 
+    color: darkslategray; 
+    padding-left: 30px; 
+    padding-top: }
 #cuerpo .cuerpo1 .texto2 {padding-top: 20px; padding-bottom: 20px;}
-#cuerpo .cuerpo1 .texto3 { text-align: center; font-weight: bolder;}
+#cuerpo .cuerpo1 .texto3 { text-align: center; 
+    font-weight: bolder;
+grid-template-columns: 2fr;}
 /*main hoja nutricion*/
 #cuerpoNutricion {display: inline;}
 #cuerpoNutricion .imagen3pagina {width: 70%; margin: auto;}
