@@ -37,7 +37,6 @@ header h3{
 }
 #header h1{
     font-size: 4.5rem;
-    font-weight: ;
 }
 #header .menu h3 {
     margin: 0px;
@@ -112,8 +111,7 @@ main .cuadroTexto .frase2 {
     height: auto; 
     font-size: 25px; 
     color: darkslategray; 
-    padding-left: 1rem; 
-    padding-top: 
+    padding-left: 1rem;
 }
 #cuerpo .cuerpo1 .texto2 
 {
