@@ -1,37 +1,43 @@
-* {margin: 0px; 
+* {
+    margin: 0px; 
     margin-left: 0px;
     padding: 0px; 
     font-family: Arial, Helvetica, sans-serif; 
     width: auto;
-box-sizing: border-box;
-display: grid;
-grid-template-columns: 1fr;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
 }
-head {display: none;}
+head {
+    display: none;
+}
 /*menu principal*/
-body{/*background-color: rgb(131, 255, 7) !important;*/ 
+body{ 
     font-style: normal; 
     position: relative;
     background-image: linear-gradient(rgb(140, 244, 36), dimgray);
     width: 100%;
 }
 /*header*/
-header {background-image: linear-gradient(to right, dimgray, rgba(255, 255, 255, 0.91)); 
+header {
+    background-image: linear-gradient(to right, dimgray, rgba(255, 255, 255, 0.91)); 
     border: 0px;
     color: aliceblue; 
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0px;
+    width: 100%;
+    padding-left: 10px;
 }
-header {padding-left: 10px;
-}
-header h3{color: rgb(125, 122, 122);
+header h3{
+    color: rgb(125, 122, 122);
     font-size: 2.5rem;
     text-align: center;
     padding-bottom: 5px;
 }
-header h1{font-size: 4.5rem;
+#header h1{
+    font-size: 4.5rem;
+    font-weight: ;
 }
 #header .menu h3 {
     margin: 0px;
@@ -41,36 +47,40 @@ header h1{font-size: 4.5rem;
     text-align: center; 
     justify-self: right;
 }
-#header .menu h6 {box-decoration-break: initial;
-        box-shadow: inset;
-        border-style: ridge; 
-        border-radius: 25px;
-        background-color: darkgray; 
-        border-color: ghostwhite;
-        padding: 5px;
-        margin-bottom: 0%;}
+#header .menu h6 {
+    box-decoration-break: initial;
+    box-shadow: inset;
+    border-style: ridge; 
+    border-radius: 25px;
+    background-color: darkgray;         border-color: ghostwhite;
+    padding: 5px;
+    margin-bottom: 0%;}
 /*main*/
-main {margin-bottom: 0px;
-display: flex;
-flex-direction: row;
-gap: 0px;
-flex-wrap: wrap;
-justify-content: space-between;
+main {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-main .cuadroTexto{font-size: 2rem;
-font-weight: 700;
-text-align: center;
-justify-content: center; 
-width: 25rem; 
-height: auto;
-text-decoration: double;
-margin-top: 30px;
+main .cuadroTexto{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center; 
+    width: 25rem; 
+    height: auto;
+    text-decoration: double;
+    margin-top: 30px;
 }
 main .cuadroTexto .div {
     text-align: center center;
     align-content: center
 }
-main .cuadroTexto .frase2 {margin-top: 5px;}
+main .cuadroTexto .frase2 {
+    margin-top: 5px;
+}
 /*margin-top: 50px;*/
 /*#contacto{padding: 10px; 
     background-color: yellowgreen; 
@@ -86,32 +96,35 @@ main .cuadroTexto .frase2 {margin-top: 5px;}
 #contacto a:hover{background-color: black;}*/
 
 /* main hoja quien soy */
-#cuerpo {display: ; 
+#cuerpo {
+    display: flex; 
     box-sizing: border-box;
 }
-#cuerpo .cuerpo1 .imagen2pagina {display: inline-flex;}
-#cuerpo .imagen2pagina {
-    width: ; 
-    height: ;
-    margin-top:  
-    border: 7px solid black;
+#cuerpo .cuerpo1 .imagen2pagina {
+    display: inline-flex;
 }
-#cuerpo .imagen2pagina img {width: 500px;
-border-radius: 30px;
+#cuerpo .imagen2pagina img {
+    width: 32rem;
+    border-radius: 30px;
 }
-#cuerpo .cuerpo1 {width: 500px; 
-    height: ; 
+#cuerpo .cuerpo1 {
+    width: 500px; 
+    height: auto; 
     font-size: 25px; 
     color: darkslategray; 
-    padding-left: 30px; 
+    padding-left: 1rem; 
     padding-top: 
 }
-#cuerpo .cuerpo1 .texto2 {padding-top: 20px; 
+#cuerpo .cuerpo1 .texto2 
+{
+    padding-top: 20px; 
     padding-bottom: 20px;
 }
-#cuerpo .cuerpo1 .texto3 {text-align: center; 
+#cuerpo .cuerpo1 .texto3 
+{
+    text-align: center; 
     font-weight: bolder;
-grid-template-columns: 2fr;
+    grid-template-columns: 2fr;
 }
 /*/*main hoja nutricion
 #cuerpoNutricion {display: inline;}
@@ -145,7 +158,9 @@ grid-template-columns: 2fr;
 #whatsapp {height: 200px; width: auto; text-align: right;}
 #whatsapp img {height: 50px; width: auto;padding: 30px; padding-bottom: 10px; }*/
 /*footer*/
-footer {color: aliceblue; 
+footer {
+    color: aliceblue; 
     font-size: 15px; 
     padding-left: 5px; 
-    background-color: dimgray; }
+    background-color: dimgray; 
+}

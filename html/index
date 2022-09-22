@@ -48,9 +48,10 @@
       <p class="frase2"><b>¡Te felicito ya estas un paso adelante!</b></p>
     </div>       
   </main>   
-    <div class="d-grid gap-2 col-1 mx-auto" width="auto">
+    <div class="d-grid gap-2 col-1 mx-auto">
     <button class="btn btn-primary" type="button" onclick="window.location.href='./contacto.html'">Contactame</button>
     </div>
+	
     <!-- <section id="contacto">
         
         <div class="cartelContacto"><a href="./contacto.html" target="_blank">Contactame</a>
