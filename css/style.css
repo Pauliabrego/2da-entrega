@@ -3,7 +3,8 @@
     margin-left: 0px;
     padding: 0px; 
     font-family: Arial, Helvetica, sans-serif; 
-    width: auto;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr;
@@ -24,14 +25,14 @@ header {
     border: 0px;
     color: aliceblue; 
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-flow: column wrap;
     width: 100%;
     padding-left: 10px;
 }
 header h3{
     color: rgb(125, 122, 122);
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 5px;
 }
@@ -43,17 +44,20 @@ header h3{
     padding-bottom: 0px;
 }
 #header .menu .slogan {
-    text-align: center; 
-    justify-self: right;
+    text-align: center;
+    flex; 
 }
-#header .menu h6 {
-    box-decoration-break: initial;
+#header .menu p {
     box-shadow: inset;
     border-style: ridge; 
     border-radius: 25px;
-    background-color: darkgray;         border-color: ghostwhite;
+    background-color: darkgray;         
+    border-color: ghostwhite;
     padding: 5px;
-    margin-bottom: 0%;}
+    margin-bottom: 0%;
+    width: fit-content;
+    right: 0px;
+}
 /*main*/
 main {
     margin-bottom: 0px;
