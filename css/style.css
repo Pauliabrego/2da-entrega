@@ -30,6 +30,9 @@ header {
     width: 100%;
     padding-left: 10px;
 }
+header .container-fluid{
+    padding-left: 0%;
+}
 header h3{
     color: rgb(125, 122, 122);
     font-size: 2rem;
@@ -90,7 +93,7 @@ main .cuadroTexto .frase2 {
     }
 }
 
-/* main hoja quien soy */
+/* Quien soy */
 #cuerpo {
     display: flex; 
     box-sizing: border-box;
@@ -111,7 +114,7 @@ main .cuadroTexto .frase2 {
     flex-direction: column;
 }
 #cuerpo .cuerpo1 .texto1 {
-   padding-left: 0.5rem;  
+    padding-left: 0.5rem;  
 } 
 #cuerpo .cuerpo1 .texto2 
 {
@@ -150,7 +153,11 @@ main .cuadroTexto .frase2 {
 footer p{
     margin-bottom: 0px;
 }
-
+/*Entrenamiento*/
+#principalEntrenamiento .fotoEntrenamiento {
+min-width: auto;
+min-height: auto;
+}
 /*#principalEntrenamiento {display: inline-flex;}
 #principalEntrenamiento .fotoEntrenamiento {
     width: 900px; 
