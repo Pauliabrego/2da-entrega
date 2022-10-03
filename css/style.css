@@ -1,7 +1,6 @@
 * {
     margin: 0px; 
-    margin-left: 0px;
-    padding: 0px; 
+  
     font-family: Arial, Helvetica, sans-serif; 
     width: 100%;
     height: auto;
@@ -92,7 +91,6 @@ main .cuadroTexto .frase2 {
         width: 50%;
     }
 }
-
 /* Quien soy */
 #cuerpo {
     display: flex; 
@@ -178,34 +176,27 @@ footer p{
     margin-bottom: 0%;
     align-items: baseline;
     align-content: flex-end;
-    /*display: flex;
-    justify-content: end;*/
 }
 @media screen and (min-width:900px) {
     #principalEntrenamiento .textoEntrenamiento p {
         width: 80%;
         font-size: 2.5rem;
-    }
-    
+    }    
 }
-
-/*
-#principalEntrenamiento .textoEntrenamiento {
-    text-align: center; 
-    font-size: 30px; 
-    text-decoration: solid; 
-    color: grey; 
-    padding-top: 90px; 
-    font-weight: bold;
+/*Contacto*/
+#contactoBox form {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-#principalEntrenamiento .textoEntrenamiento .texto2 { 
-    padding-top: 20px;}
-/*Contacto
-#contactoBox {width: 40%; padding-left: 20px; display: inline-flex;}
-#contactoBox .botonEnviar {padding-top: 30px;}
-#contactoBox, .nombreApellido, .ciudad, .telefono, .mail, .encuesta, .noEntrena {padding-top: 10px; padding-bottom: 10px; font-weight: bold;} 
-#whatsapp {height: 200px; width: auto; text-align: right;}
-#whatsapp img {height: 50px; width: auto;padding: 30px; padding-bottom: 10px; }*/
+#contactoBox .radio {
+}
 /*footer*/
 footer {
     color: aliceblue; 
