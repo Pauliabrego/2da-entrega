@@ -84,43 +84,46 @@ main .cuadroTexto .div {
 main .cuadroTexto .frase2 {
     margin-top: 5px;
 }
-/*margin-top: 50px;*/
-/*#contacto{padding: 10px; 
-    background-color: yellowgreen; 
-    font-size: 25px; 
-    font-weight: bolder;
-    text-align: center; 
-    width: fit-content; 
-    margin: auto; 
-    margin-top: -5px; 
-    border-style: inset;}
-#contacto a{text-decoration: none; 
-    color: aliceblue}
-#contacto a:hover{background-color: black;}*/
+@media screen and (min-width: 700px) {
+    #carouselExampleSlidesOnly {
+        width: 50%;
+    }
+}
 
 /* main hoja quien soy */
 #cuerpo {
     display: flex; 
     box-sizing: border-box;
+    flex-flow: row wrap;
+
 }
-#cuerpo .cuerpo1 .imagen2pagina {
-    display: inline-flex;
+@media screen (mind-width: 700px) {
+    #cuerpo {
+        display: grid;
+        grid-template-columns: 1fr, 1fr
+    }
 }
 #cuerpo .imagen2pagina img {
-    width: 32rem;
+    width: 100%;
     border-radius: 30px;
 }
 #cuerpo .cuerpo1 {
-    width: 500px; 
+    width: auto; 
     height: auto; 
     font-size: 25px; 
-    color: darkslategray; 
-    padding-left: 1rem;
+    color: darkslategray;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
+#cuerpo .cuerpo1 .texto1 {
+   padding-left: 0.5rem;  
+} 
 #cuerpo .cuerpo1 .texto2 
 {
     padding-top: 20px; 
     padding-bottom: 20px;
+    padding-left: 0.5rem;
 }
 #cuerpo .cuerpo1 .texto3 
 {
