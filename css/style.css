@@ -126,7 +126,7 @@ main .cuadroTexto .frase2 {
     font-weight: bolder;
     grid-template-columns: 2fr;
 }
-/*Hoja Nutricion main*/
+/*Hoja Nutricion*/
 #cuerpoNutricion .textoNutricion {
     text-align: center;
     padding: 5%;
@@ -195,7 +195,38 @@ footer p{
     margin-left: 10%;
     margin-right: 10%;
 }
-#contactoBox .radio {
+.circulos {
+    display: inline;
+}
+#whatsapp {
+    width: min-content;
+    position: fixed;
+    right: 0;
+    z-index: 99;
+    margin-right: 10%;
+}
+#whatsapp img {
+    width: 60%;
+    position: relative;
+    left: 15%;
+}
+#whatsapp h3{
+    font-size: 80%;
+}
+@media screen and (min-width: 680px) {
+    #contactoBox form {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    #whatsapp img {
+        width: 80%;  
+    }
+    #whatsapp h3{
+        font-size: 100%;
+    }
 }
 /*footer*/
 footer {
