@@ -32,9 +32,8 @@ header menu .slogan p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-header menu .slogan p border {
   border-style: ridge;
   border-radius: 25px;
   border-color: ghostwhite;
-}/*# sourceMappingURL=principal.css.map */
+}
+/*# sourceMappingURL=principal.css.map */

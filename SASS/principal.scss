@@ -13,8 +13,7 @@ header{
     menu{
         h3{
             color: rgb(125, 122, 122);
-            
-font-size: 2rem;
+            font-size: 2rem;
             text-align: center;
             padding-bottom: 5px;
             margin: 0px;
@@ -30,11 +29,10 @@ font-size: 2rem;
                 padding: 5px;
                 margin-bottom: 0%;
                 width: fit-content;
-                border{
-                    border-style: ridge; 
-                    border-radius: 25px;
-                    border-color: ghostwhite;
-                }
+                border-style: ridge; 
+                border-radius: 25px;
+                border-color: ghostwhite;
+                
             }
         }
     }
