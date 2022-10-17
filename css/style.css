@@ -4,8 +4,6 @@
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 head {
     display: none;
@@ -14,7 +12,7 @@ head {
 body{ 
     font-style: normal; 
     position: relative;
-    background-image: linear-gradient(rgb(140, 244, 36), dimgray);
+    background-image: linear-gradient(rgb(98, 159, 36), rgb(145, 144, 144));
     width: 100%;
 }
 /*header*/
@@ -93,15 +91,15 @@ main .cuadroTexto .frase2 {
     display: flex; 
     box-sizing: border-box;
     flex-flow: row wrap;
-
+    align-items: center;
 }
 #cuerpo .imagen2pagina img {
     width: 100%;
     border-radius: 30px;
 }
-#cuerpo .cuerpo1 {
-    width: auto; 
-    height: auto; 
+#cuerpo .cuerpo1,.texto2 {
+    /*width: auto;
+    height: auto; */
     font-size: 25px; 
     color: darkslategray;
     padding-top: 0.5rem;
@@ -111,17 +109,45 @@ main .cuadroTexto .frase2 {
 #cuerpo .cuerpo1 .texto1 {
     padding-left: 0.5rem;  
 } 
-#cuerpo .cuerpo1 .texto2 
+#cuerpo .texto2 
 {
     padding-top: 20px; 
     padding-bottom: 20px;
     padding-left: 0.5rem;
 }
-#cuerpo .cuerpo1 .texto3 
+#cuerpo .texto3 
 {
     text-align: center; 
     font-weight: bolder;
     grid-template-columns: 2fr;
+}
+.nombre {
+    font-weight: bold;/*negrita*/
+} 
+@media screen and (min-width: 800px){
+    .imagen2pagina{
+        width: 50%;
+    }
+    .texto2, .cuerpo1{
+        width: 50%;   
+    }
+    #cuerpo{
+        align-items: flex-start;
+    }
+    .cuerpo1{
+        min-height: min-content;
+    }
+}
+@media screen and (min-width: 900px) {
+    .texto1, .texto2{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 999px){
+    .cuerpo1{
+        width: 50%!important ; 
+    }
+    
 }
 /*Hoja Nutricion*/
 #cuerpoNutricion .textoNutricion {
@@ -185,15 +211,15 @@ footer p{
     width: 80%;
     border: 2px solid black;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
 .circulos {
-    display: inline;
+    display: inline-flex;
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
 #whatsapp {
     width: min-content;
