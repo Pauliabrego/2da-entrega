@@ -125,18 +125,33 @@ main .cuadroTexto .frase2 {
     font-weight: bold;/*negrita*/
 } 
 @media screen and (min-width: 800px){
-    .imagen2pagina{
-        width: 50%;
-    }
-    .texto2, .cuerpo1{
-        width: 50%;   
-    }
     #cuerpo{
         align-items: flex-start;
+        /*display: grid;
+        grid-template-areas:
+        "texto1 imagen"
+        "texto2 imagen"
+        "texto2";
+        grid-template-columns: 1fr 1fr;*/
     }
     .cuerpo1{
         min-height: min-content;
+        /*grid-area: texto1;*/
     }
+    .imagen2pagina{
+        width: 50%;
+        /*grid-area: imagen;*/
+        justify-items: right;
+    }
+    .texto2{
+        /*grid-area: texto2;*/
+        position: relative;
+        bottom: 300px; 
+    }
+    .texto2, .cuerpo1{
+        height: 50%;
+        width: 50%;   
+    } 
 }
 @media screen and (min-width: 900px) {
     .texto1, .texto2{
