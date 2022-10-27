@@ -55,7 +55,7 @@ header h3{
     margin-bottom: 0%;
     width: fit-content;
 }
-/*main*/
+/*index*/
 main{
     margin-bottom: 0px;
     display: flex;
@@ -87,82 +87,47 @@ main .cuadroTexto .frase2 {
     }
 }
 /* Quien soy */
-#cuerpo {
-    display: flex; 
-    box-sizing: border-box;
-    flex-flow: row wrap;
-    align-items: center;
+.texto0, .texto2{
+    font-size: 1.5rem;
+    color: rgb(61, 59, 59);
+    padding: 10px;
 }
-#cuerpo .imagen2pagina img {
-    width: 100%;
-    border-radius: 30px;
+.nombre{
+    font-weight: bold;
 }
-#cuerpo .cuerpo1,.texto2 {
-    /*width: auto;
-    height: auto; */
-    font-size: 25px; 
-    color: darkslategray;
-    padding-top: 0.5rem;
-    display: flex;
-    flex-direction: column;
+.texto3{
+    text-align: center;
+    color: rgb(58, 110, 5);
+    font-weight: bold;
 }
-#cuerpo .cuerpo1 .texto1 {
-    padding-left: 0.5rem;  
-} 
-#cuerpo .texto2 
-{
-    padding-top: 20px; 
-    padding-bottom: 20px;
-    padding-left: 0.5rem;
-}
-#cuerpo .texto3 
-{
-    text-align: center; 
-    font-weight: bolder;
-    grid-template-columns: 2fr;
-}
-.nombre {
-    font-weight: bold;/*negrita*/
-} 
 @media screen and (min-width: 800px){
-    #cuerpo{
-        align-items: flex-start;
-        /*display: grid;
-        grid-template-areas:
-        "texto1 imagen"
-        "texto2 imagen"
-        "texto2";
-        grid-template-columns: 1fr 1fr;*/
-    }
-    .cuerpo1{
+    .cuerpoQuienSoy{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "Texto1 imagen"
+        "Texto2 imagen";
         min-height: min-content;
-        /*grid-area: texto1;*/
     }
-    .imagen2pagina{
-        width: 50%;
-        /*grid-area: imagen;*/
-        justify-items: right;
+    .texto0 { grid-area: Texto1; }
+    .imagen2pagina { grid-area: imagen; }
+    .texto2 { grid-area: Texto2; }
+    .texto0, .texto2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.4rem;
     }
-    .texto2{
-        /*grid-area: texto2;*/
-        position: relative;
-        bottom: 300px; 
-    }
-    .texto2, .cuerpo1{
-        height: 50%;
-        width: 50%;   
-    } 
 }
 @media screen and (min-width: 900px) {
     .texto1, .texto2{
         font-size: 30px;
+        align-self: center;
     }
-}
-@media screen and (min-width: 999px){
-    .cuerpo1{
-        width: 50%!important ; 
+    .texto0{
+        padding-top: 30px;
     }
-    
 }
 /*Hoja Nutricion*/
 #cuerpoNutricion .textoNutricion {
