@@ -55,6 +55,16 @@ header h3{
     margin-bottom: 0%;
     width: fit-content;
 }
+/*footer*/
+footer {
+    color: aliceblue; 
+    font-size: 15px; 
+    padding-left: 5px; 
+    background-color: rgb(105, 105, 105); 
+}
+footer p{
+    margin-bottom: 0px;
+}
 /*index*/
 main{
     margin-bottom: 0px;
@@ -62,7 +72,6 @@ main{
     flex-direction: row;
     gap: 0px;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 main .cuadroTexto{
     font-size: 2rem;
@@ -83,6 +92,9 @@ main .cuadroTexto .frase2 {
 }
 @media screen and (min-width: 700px) {
     #carouselExampleSlidesOnly {
+        width: 50%;
+    }
+    main .cuadroTexto{
         width: 50%;
     }
 }
@@ -129,6 +141,11 @@ main .cuadroTexto .frase2 {
         padding-top: 30px;
     }
 }
+@media screen and (max-width: 700px) {
+    .texto1, .texto2{
+        text-align: center;
+    }  
+}
 /*Hoja Nutricion*/
 #cuerpoNutricion .textoNutricion {
     text-align: center;
@@ -139,7 +156,7 @@ main .cuadroTexto .frase2 {
 @media screen and (min-width: 795px){
     #cuerpoNutricion .textoNutricion {
         font-size: 150%;  
-        padding: 2%; 
+        padding: 2% 8%; 
     }   
     #cuerpoNutricion .imagen3pagina {
         width: 70%;
@@ -151,14 +168,11 @@ main .cuadroTexto .frase2 {
         margin-right: auto;
     }
 }
-footer p{
-    margin-bottom: 0px;
-}
 /*Entrenamiento*/
 #principalEntrenamiento {
     background-image: url("../imagenes/imagen 4.png");
     width: 100%;
-    height: 39.5rem;
+    height: auto;
     background-size: cover;
     display: flex;
     align-items: stretch;
@@ -175,15 +189,10 @@ footer p{
     height: min-content;
     margin-top: 2%;
 }
-#principalEntrenamiento .textoEntrenamiento .texto2 {
-    margin-bottom: 0%;
-    align-items: baseline;
-    align-content: flex-end;
-}
-@media screen and (min-width:900px) {
+@media screen and (min-width: 900px) {
     #principalEntrenamiento .textoEntrenamiento p {
         width: 80%;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }    
 }
 /*Contacto*/
@@ -201,20 +210,15 @@ footer p{
     display: grid;
     grid-template-columns: 20% 80%;
 }
-#whatsapp {
-    width: min-content;
-    position: fixed;
-    right: 0;
+#whatsapp{
+    width: 10%;
+    position: sticky;
     z-index: 99;
-    margin-right: 10%;
-}
-#whatsapp img {
-    width: 60%;
-    position: relative;
-    left: 15%;
+    bottom: 50%;
 }
 #whatsapp h3{
-    font-size: 80%;
+    font-size: 20%;
+    font-weight: 700;
 }
 @media screen and (min-width: 680px) {
     #contactoBox form {
@@ -225,16 +229,10 @@ footer p{
         padding-right: 8%;
     }
     #whatsapp img {
-        width: 80%;  
+        width: 60%;  
     }
     #whatsapp h3{
-        font-size: 100%;
+        font-size: 60%;
+        font-weight: 800;
     }
-}
-/*footer*/
-footer {
-    color: aliceblue; 
-    font-size: 15px; 
-    padding-left: 5px; 
-    background-color: rgb(105, 105, 105); 
 }
